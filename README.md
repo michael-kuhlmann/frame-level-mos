@@ -64,14 +64,16 @@ See `python -m frame_level_mos.eval.detect --help` for more options.
 #### Results
 
 ##### dev_clean
-|Model|$\rho_\mathrm{DTC}=\rho_\mathrm{GTC}=0.5$|$\rho_\mathrm{DTC}=\rho_\mathrm{GTC}=0.7$|
+
+|Model|DTC=GTC=0.5|DTC=GTC=0.7|
 |:----|:--------:|:--------:|
 |SSL-MOS [[3]](#3)|.693|.555|
 |SHEET SSL-MOS: Re+CNN|**.748**|**.634**|
 |ChunkMOS+BLSTM|.638|.337|
 
 ##### test_clean
-|Model|$\rho_\mathrm{DTC}=\rho_\mathrm{GTC}=0.5$|$\rho_\mathrm{DTC}=\rho_\mathrm{GTC}=0.7$|
+
+|Model|DTC=GTC=0.5|DTC=GTC=0.7|
 |:----|:--------:|:--------:|
 |SSL-MOS [[3]](#3)|.703|.562|
 |SHEET SSL-MOS: Re+CNN|**.748**|**.625**|
